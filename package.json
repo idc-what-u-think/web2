@@ -1,0 +1,30 @@
+{
+  "name": "firekid-pairing",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Pairing System",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@octokit/rest": "^21.0.2",
+    "@hapi/boom": "^10.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "pino": "^9.5.0",
+    "node-cache": "^5.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "awesome-phonenumber": "^6.14.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
